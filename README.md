@@ -18,6 +18,10 @@ Este projeto utiliza o Terraform para provisionar uma infraestrutura na AWS, inc
 1. Clone este repositório.
 2. Configure suas variáveis de ambiente e credenciais AWS conforme necessário.
 3. Execute `terraform init` para inicializar o ambiente Terraform.
+4. Execute `terraform workspace new dev` para criar o espaço de trabalho para desenvolvimento.
 4. Execute `terraform apply` para aplicar as configurações e provisionar a infraestrutura na AWS.
+
+**Observações:**
+- Certifique-se de ter configurado o AWS CLI e o Terraform na sua máquina antes de executar os comandos.
 
 Este projeto demonstra as práticas recomendadas para a implantação de infraestrutura na nuvem de forma automatizada e controlada através do Terraform.
